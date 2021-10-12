@@ -33,6 +33,18 @@ div.container {
     flex-direction: column ;
 }
 
+.language{
+    color: white ;
+    display: flex ;
+    flex-direction: row ;
+    cursor: pointer;
+}
+
+.language > div{
+    padding: 10px 20px 10px 0px ;
+    font-size: 35px ;
+}
+
 .logo{
     background-image: url(../IMG/logo.PNG);
     max-width: 280px ;
@@ -56,6 +68,7 @@ a{
     background-color: white ;
     height: 50px ;
     width: 100% ;
+    min-width: 280px ;
     border-radius: 25px ;
 
     display: flex ;
