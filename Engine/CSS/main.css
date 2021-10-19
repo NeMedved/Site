@@ -54,6 +54,7 @@ div.container {
     background-size: cover ; 
     border-radius: 100% ;
     margin-bottom: 40px ;
+    box-shadow: 0px 8px 14px 8px rgba(139, 139, 139, 0.2);
 }
 
 div.menu{
